@@ -27,7 +27,7 @@ onprofiles:
       red: false
       black: true
       purple: false
-  - name: elia
+  - name: eliav
     badges:
       white: true
       orange: true
