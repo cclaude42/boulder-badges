@@ -1,4 +1,4 @@
-onprofiles:
+profiles:
   - name: cesar
     default: true
     badges:
