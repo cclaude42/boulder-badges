@@ -27,12 +27,3 @@ onprofiles:
       red: false
       black: true
       purple: false
-  - name: eliav
-    badges:
-      white: true
-      orange: true
-      green: false
-      blue: false
-      red: false
-      black: true
-      purple: true
