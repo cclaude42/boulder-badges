@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   build-jinja:
+    runs-on: ubuntu-latest
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
