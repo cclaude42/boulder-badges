@@ -31,7 +31,7 @@ onprofiles:
     badges:
       white: true
       orange: true
-      green: fals
+      green: false
       blue: false
       red: false
       black: true
