@@ -2,7 +2,7 @@ profiles:
   - name: cesar
     default: true
     badges:
-      white: true
+      white: false
       orange: false
       green: false
       blue: false
@@ -11,17 +11,17 @@ profiles:
       purple: false
   - name: clovis
     badges:
-      white: true
-      orange: true
-      green: true
+      white: false
+      orange: false
+      green: false
       blue: false
       red: false
       black: false
       purple: false
   - name: arthur
     badges:
-      white: true
-      orange: true
+      white: false
+      orange: false
       green: false
       blue: false
       red: false
