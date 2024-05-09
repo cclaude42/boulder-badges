@@ -59,7 +59,7 @@ body, html {
     grid-template-columns: repeat(4, 1fr);
     width: 60vw;
     height: 30vw;
-    background-color: white;
+    background-color: #4d4d4d;
     border: 1rem solid #3b3b3b;
 }
 
