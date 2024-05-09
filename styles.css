@@ -1,0 +1,70 @@
+/* Common */
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #4d4d4d;
+}
+
+.container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* Control display */
+.visible {
+    display: flex;
+}
+
+
+/* Profile */
+.title {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    font-family: 'Press Start 2P'; /* Pixelated text */
+    font-size: 3vw;
+    background-color: #4d4d4d;
+    color: #3b3b3b;
+    margin-bottom: 0.5vw;
+}
+
+.profile {
+    width: 25vw;
+}
+
+.arrow {
+    width: 5vw;
+    border: none;
+}
+
+.arrow:hover {
+    background-color: #474747;
+    cursor: pointer;
+}
+
+
+/* Images */
+.image-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 60vw;
+    height: 30vw;
+    background-color: white;
+    border: 1rem solid #3b3b3b;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures that images maintain their aspect ratio without distortion */
+}
