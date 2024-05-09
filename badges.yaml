@@ -27,3 +27,12 @@ profiles:
       red: false
       black: true
       purple: false
+  - name: fulltest
+    badges:
+      white: true
+      orange: true
+      green: true
+      blue: true
+      red: true
+      black: true
+      purple: true
