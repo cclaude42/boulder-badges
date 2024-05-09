@@ -1,4 +1,4 @@
-profiles:
+onprofiles:
   - name: cesar
     default: true
     badges:
@@ -27,12 +27,12 @@ profiles:
       red: false
       black: true
       purple: false
-  - name: fulltest
+  - name: elia
     badges:
       white: true
       orange: true
-      green: true
-      blue: true
-      red: true
+      green: fals
+      blue: false
+      red: false
       black: true
       purple: true
