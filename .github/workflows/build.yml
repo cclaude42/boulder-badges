@@ -1,0 +1,27 @@
+name: Build Jinja site
+run-name: Build & push the Jinja website 🏗️
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  id-token: write # This is required for requesting the JWT
+  contents: read # This is required for actions/checkout
+
+jobs:
+  build-jinja:
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+  
+      - name: Build site
+        uses: cuchi/jinja2-action@v1.2.2
+        with:
+          template: index.html.jinja
+          output_file: website/index.html
+          data_file: badges.yaml
+          data_format: yaml
+
+      - name: Show results
+        run: cat website/index.html
