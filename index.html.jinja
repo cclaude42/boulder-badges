@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badges</title>
+    <link rel="icon" href="src/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    {% for profile in profiles %}
+    <div class="container {{ profile.name }}{{ ' visible' if profile.default }}">
+        <div class="title">
+            <button class="text arrow" onclick="prevProfile()"><</button>
+            <div class="text profile">{{ profile.name.title() }}</div>
+            <button class="text arrow" onclick="nextProfile()">></button>
+        </div>
+        <div class="image-box">
+            <img src="src/logo.png" alt="Logo">
+            <img src="src/{{ 'badge' if profile.badges.white  else 'empty' }}-white.png"  alt="White badge">
+            <img src="src/{{ 'badge' if profile.badges.orange else 'empty' }}-orange.png" alt="Orange badge">
+            <img src="src/{{ 'badge' if profile.badges.green  else 'empty' }}-green.png"  alt="Green badge">
+            <img src="src/{{ 'badge' if profile.badges.blue   else 'empty' }}-blue.png"   alt="Blue badge">
+            <img src="src/{{ 'badge' if profile.badges.red    else 'empty' }}-red.png"    alt="Red badge">
+            <img src="src/{{ 'badge' if profile.badges.black  else 'empty' }}-black.png"  alt="Black badge">
+            <img src="src/{{ 'badge' if profile.badges.purple else 'empty' }}-purple.png" alt="Purple badge">
+        </div>
+    </div>
+    {% endfor %}
+    <script src="script.js"></script>
+</body>
+</html>
