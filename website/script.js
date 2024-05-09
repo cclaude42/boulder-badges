@@ -24,11 +24,11 @@ function setProfile () {
 }
 
 function prevProfile () {
-    index++;
+    index--;
     setProfile();
 }
 
 function nextProfile () {
-    index--;
+    index++;
     setProfile();
 }
