@@ -3,12 +3,12 @@ profiles:
   #   default: false
   #   badges: ["white", "orange", "green"]
 
-  - name: cesar
+  - name: eliav
     default: true
-    badges: []
+    badges: ["white", "orange", "green"]
 
-  - name: clovis
-    badges: []
+  - name: fred
+    badges: ["white", "orange", "green", "blue", "red"]
 
-  - name: arthur
-    badges: []
+  - name: cesar
+    badges: [white, orange, green, blue, red, black, purple]
