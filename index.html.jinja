@@ -18,13 +18,13 @@
         </div>
         <div class="image-box">
             <img src="src/logo.png" alt="Logo">
-            <img src="src/{{ 'badge' if profile.badges.white  else 'empty' }}-white.png"  alt="White badge">
-            <img src="src/{{ 'badge' if profile.badges.orange else 'empty' }}-orange.png" alt="Orange badge">
-            <img src="src/{{ 'badge' if profile.badges.green  else 'empty' }}-green.png"  alt="Green badge">
-            <img src="src/{{ 'badge' if profile.badges.blue   else 'empty' }}-blue.png"   alt="Blue badge">
-            <img src="src/{{ 'badge' if profile.badges.red    else 'empty' }}-red.png"    alt="Red badge">
-            <img src="src/{{ 'badge' if profile.badges.black  else 'empty' }}-black.png"  alt="Black badge">
-            <img src="src/{{ 'badge' if profile.badges.purple else 'empty' }}-purple.png" alt="Purple badge">
+            <img src="src/{{ 'badge' if 'white'  in profiles.badges else 'empty' }}-white.png"  alt="White badge">
+            <img src="src/{{ 'badge' if 'orange' in profiles.badges else 'empty' }}-orange.png" alt="Orange badge">
+            <img src="src/{{ 'badge' if 'green'  in profiles.badges else 'empty' }}-green.png"  alt="Green badge">
+            <img src="src/{{ 'badge' if 'blue'   in profiles.badges else 'empty' }}-blue.png"   alt="Blue badge">
+            <img src="src/{{ 'badge' if 'red'    in profiles.badges else 'empty' }}-red.png"    alt="Red badge">
+            <img src="src/{{ 'badge' if 'black'  in profiles.badges else 'empty' }}-black.png"  alt="Black badge">
+            <img src="src/{{ 'badge' if 'purple' in profiles.badges else 'empty' }}-purple.png" alt="Purple badge">
         </div>
     </div>
     {% endfor %}
