@@ -11,4 +11,4 @@ profiles:
     badges: ["white", "orange", "green", "blue", "red"]
 
   - name: cesar
-    badges: [white, orange, green, blue, red, black, purple]
+    badges: [white, orange, green, blue, red, black]
