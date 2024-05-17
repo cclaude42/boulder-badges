@@ -1,14 +1,14 @@
 profiles:
   # - name: name
   #   default: false
-  #   badges: ["white", "orange", "green"]
-
-  - name: eliav
-    default: true
-    badges: ["white", "orange", "green"]
-
-  - name: fred
-    badges: ["white", "orange", "green", "blue", "red"]
+  #   badges: [white, orange, green]
 
   - name: cesar
-    badges: [white, orange, green, blue, red, black]
+    default: true
+    badges: []
+
+  - name: clovis
+    badges: []
+
+  - name: arthur
+    badges: []
