@@ -5,7 +5,7 @@ profiles:
 
   - name: cesar
     default: true
-    badges: []
+    badges: [white]
 
   - name: clovis
     badges: []
