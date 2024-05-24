@@ -5,10 +5,10 @@ profiles:
 
   - name: cesar
     default: true
-    badges: [white]
+    badges: [white, orange]
 
   - name: clovis
     badges: []
 
   - name: arthur
-    badges: [white]
+    badges: [white, orange]
