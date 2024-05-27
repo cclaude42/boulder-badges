@@ -8,7 +8,7 @@ profiles:
     badges: [white, orange]
 
   - name: clovis
-    badges: []
+    badges: [white]
 
   - name: arthur
     badges: [white, orange]
