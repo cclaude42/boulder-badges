@@ -11,7 +11,7 @@ profiles:
     badges: [white, orange, green]
 
   - name: arthur
-    badges: [white, orange]
+    badges: [white, orange, green]
 
   - name: nico
     badges: [white, orange]
