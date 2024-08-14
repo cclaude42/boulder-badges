@@ -15,3 +15,6 @@ profiles:
 
   - name: nico
     badges: [white, orange]
+
+  - name: Alex
+    badges: [white, orange, green, blue, red, purple, black]
